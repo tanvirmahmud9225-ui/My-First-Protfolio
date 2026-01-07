@@ -94,6 +94,23 @@ nav a {
     padding-bottom: 30px;
 }
 
+.hero-btn .con-btn {
+    margin-left: 30px;
+}
+
+.hero-btn .cv-btn span,
+.con-btn span {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.con-btn {
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+
 .banner-image img {
     width: 530px;
     margin-right: 10px;
@@ -261,8 +278,17 @@ nav a {
     margin: 0 auto;
     max-width: 1140px;
 }
-.resume-btn{
+
+.resume-btn {
     margin-bottom: 110px;
+}
+
+.resume-btn .cv-btn span {
+    margin-left: 20px;
+}
+
+.resume-btn .cv-btn {
+    padding: 20px 25px;
 }
 
 footer {
@@ -277,42 +303,48 @@ footer {
     padding: 130px 0px;
     gap: 30px;
 }
-.footer-container .social{
+
+.footer-container .social {
     max-width: 562px;
 }
 
-.social h2{
+.social h2 {
     font-size: 35px;
     font-weight: bold;
     padding-bottom: 20px;
 }
-.social p{
+
+.social p {
     font-size: 16px;
     color: #474747;
     padding-bottom: 30px;
 }
 
-.icons img{
+.icons img {
     margin-right: 24px;
 }
-.footer-container form{
+
+.footer-container form {
     max-width: 470px;
 }
 
-.footer-container form h2{
+.footer-container form h2 {
     font-size: 35px;
     padding-bottom: 30px;
 }
 
-.footer-container form input[type="text"], .footer-container form input[type="email"],textarea{
+.footer-container form input[type="text"],
+.footer-container form input[type="email"],
+textarea {
     width: 470px;
-    padding: 18px 20px ;
+    padding: 18px 20px;
     margin-bottom: 24px;
     border-radius: 10px;
     border: none;
 }
 
-.form-btn{
+
+.form-btn {
     padding: 10px 55px;
     margin-right: 30px;
 }
